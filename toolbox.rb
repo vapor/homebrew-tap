@@ -1,5 +1,5 @@
-$version = "0.10.1"
-$hash = "6b5ad4925962864dd32f84b11df1d39ac29ac6b59422a21a8139b305653c370a"
+$version = "0.10.2"
+$hash = "f06dc802e359a80925381f285008a379d902749c38eca96c62b6d71da25aff2e"
 
 class Toolbox < Formula
   homepage "http://vapor.codes"
