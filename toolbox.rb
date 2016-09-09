@@ -1,15 +1,15 @@
-require "formula"
+$version = "0.10.1"
+$hash = "6b5ad4925962864dd32f84b11df1d39ac29ac6b59422a21a8139b305653c370a"
 
 class Toolbox < Formula
   homepage "http://vapor.codes"
-  url "https://github.com/vapor/toolbox"
-  sha1 "0a323c749241b0dcb313b3d4cc9411d8b34bbf75"
+  url "https://github.com/vapor/toolbox/archive/#{$version}.tar.gz"
+  sha256 $hash
+  version $version
 
   def install
-    system "git", "clone", "https://github.com/vapor/toolbox.git"
-    system "cd", "toolbox"
-    system "swift", "build", "-c", "release"
-    system "mv", ".build/release/Executable", "vapor"
+    system "swift build -c release"
+    system "mv .build/release/Executable vapor"
     bin.install "vapor"
   end
 end
