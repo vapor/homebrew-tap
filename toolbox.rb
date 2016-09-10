@@ -1,8 +1,8 @@
-$version = "0.10.2"
-$hash = "f06dc802e359a80925381f285008a379d902749c38eca96c62b6d71da25aff2e"
+$version = "0.10.3"
+$hash = "2abb5827764f6798567c44edfaec99eb16e4e9ce"
 
 class Toolbox < Formula
-  homepage "http://vapor.codes"
+  homepage "https://vapor.codes"
   url "https://github.com/vapor/toolbox/archive/#{$version}.tar.gz"
   sha256 $hash
   version $version
