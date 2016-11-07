@@ -7,8 +7,9 @@ class Toolbox < Formula
   sha256 $hash
   version $version
 
+
   def install
-    system "swift build -c release"
+    system "unset CC; swift build -c release"
     system "mv .build/release/Executable vapor"
     bin.install "vapor"
   end
