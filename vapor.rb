@@ -1,4 +1,4 @@
-class VaporToolbox < Formula
+class Vapor < Formula
   homepage "https://vapor.codes"
   version "1.0.8"
   url "https://github.com/vapor/toolbox/releases/download/#{version}/macOS-10.12"
