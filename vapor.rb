@@ -1,13 +1,13 @@
 class Vapor < Formula
   homepage "https://vapor.codes"
   version "1.0.8"
-  url "https://github.com/vapor/toolbox/releases/download/#{version}/macOS-10.12"
-  sha256 "7abe9fe1585a908d4c369c450faa62b4bd9234f97e31003cb0690bc6cad9401e"
+  url "https://github.com/vapor/toolbox/releases/download/#{version}/macOS-sierra"
+  sha256 "cc6e52823328b900784f43fd1af7b7cd8c60f3434d2ebf21a21039e7c1d81d1e"
 
   depends_on "ctls" => :run
 
   def install
-    system "mv macOS-10.12 vapor"
+    system "mv macOS-sierra vapor"
     bin.install "vapor"
   end
 end
