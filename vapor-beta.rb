@@ -1,4 +1,4 @@
-class Vapor < Formula
+class VaporBeta < Formula
   homepage "https://vapor.codes"
   version "2.0.0-beta.1"
   url "https://github.com/vapor/toolbox/releases/download/#{version}/macOS-sierra"
