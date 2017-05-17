@@ -1,4 +1,4 @@
-class Toolbox < Formula
+class Vapor1 < Formula
   homepage "https://vapor.codes"
   version "1.0.9"
   url "https://github.com/vapor/toolbox/releases/download/#{version}/macOS-sierra"
@@ -7,7 +7,7 @@ class Toolbox < Formula
   depends_on "ctls" => :run
 
   def install
-    system "mv macOS-sierra vapor"
+    system "mv macOS-sierra vapor1"
     bin.install "vapor1"
   end
 end

@@ -1,4 +1,4 @@
-$version = "2.0.0-beta.3"
+$version = "2.0.0"
 $hash = "70ec383d6aefa2b4fd3021b160ce46d89de5774ebf4d24da27d6fef5a78a6c0d"
 
 class Cmysql < Formula

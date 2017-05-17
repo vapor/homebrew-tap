@@ -1,4 +1,4 @@
-$version = "1.0.0-beta.3"
+$version = "1.0.0"
 $hash = "265ff4601b0726fb551bb73ff056e23c1e64e954622dce731a2404f23131d841"
 
 class Ctls < Formula
