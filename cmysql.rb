@@ -1,5 +1,5 @@
 $version = "2.0.0"
-$hash = "70ec383d6aefa2b4fd3021b160ce46d89de5774ebf4d24da27d6fef5a78a6c0d"
+$hash = "553704740ea4cf4ebbc4bba40a4c483b2730106ba8d2018170611868c16a9623"
 
 class Cmysql < Formula
   homepage "https://vapor.codes"
