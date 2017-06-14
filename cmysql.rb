@@ -11,6 +11,8 @@ class Cmysql < Formula
   depends_on "mysql" => :run
 
   def install
+    inreplace "macos.pc", "prefix=/usr/local/opt/mysql", "prefix=#{Formula["mysql"].opt_prefix}"
+    
     system "mkdir pkgconfig"
     system "mv macos.pc pkgconfig/cmysql.pc"
     lib.install "pkgconfig"
