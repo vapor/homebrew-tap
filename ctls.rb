@@ -1,5 +1,5 @@
-$version = "1.0.0"
-$hash = "6a389f29155aa5dfd5ac8baabb2bd3b48249d1960d6b46bfaa25aee30e17cf31"
+$version = "1.1.1"
+$hash = "6bf5cf1948df21ce8886bb9016dcf1f02d400c8fad603be8e464556d1382893a"
 
 class Ctls < Formula
   homepage "https://vapor.codes"
