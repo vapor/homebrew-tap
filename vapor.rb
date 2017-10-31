@@ -1,8 +1,8 @@
 class Vapor < Formula
   homepage "https://vapor.codes"
-  version "3.0.3"
+  version "3.1.0"
   url "https://github.com/vapor/toolbox/releases/download/#{version}/macOS-sierra.tar.gz"
-  sha256 "0461af9672896918e66bf3f698f0e78df0b8eb51c2a4a115919a0a30e055452c"
+  sha256 "13da18705271102a36d963e9a490c14de05972d3e8dd848b91caf4fc7d71bfef"
 
   depends_on "ctls" => :run
 
