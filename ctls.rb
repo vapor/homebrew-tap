@@ -7,8 +7,8 @@ class Ctls < Formula
   sha256 $hash
   version $version
 
-  depends_on "pkg-config" => :run
-  depends_on "openssl" => :run
+  depends_on "pkg-config"
+  depends_on "openssl"
 
   def install
     system "mkdir pkgconfig"

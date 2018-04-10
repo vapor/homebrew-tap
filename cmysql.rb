@@ -7,8 +7,8 @@ class Cmysql < Formula
   sha256 $hash
   version $version
 
-  depends_on "pkg-config" => :run
-  depends_on "mysql" => :run
+  depends_on "pkg-config"
+  depends_on "mysql"
 
   def install
     system "mkdir pkgconfig"

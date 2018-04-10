@@ -4,7 +4,7 @@ class Cstack < Formula
   version "0.0.0"
   sha256 "6e6d1b406eeab0a326bc73cdf7ed8bcce16b255dc23d9c088d846899605745fe"
 
-  depends_on "pkg-config" => :run
+  depends_on "pkg-config"
 
   def install
       system "mkdir pkgconfig"
