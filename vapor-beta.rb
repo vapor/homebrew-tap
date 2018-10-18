@@ -6,5 +6,6 @@ class VaporBeta < Formula
 
   def install
     bin.install "vapor-beta"
+    bin.install "libSwiftSyntax.dylib"
   end
 end
