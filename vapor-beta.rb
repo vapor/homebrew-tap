@@ -2,7 +2,7 @@ class VaporBeta < Formula
   homepage "https://vapor.codes"
   version "18.0.0-beta.2"
   url "https://github.com/vapor/toolbox/releases/download/#{version}/macOS-sierra.tar.gz"
-  sha256 "a34464d1dcd509e66254e597ebdd0c492b0eca210aa8d9028230f272f5f3651d"
+  sha256 "4d461c7bd9e859e7cc761f326ab58d7ac60bdc80f6a097870400475fdb8d3fa7"
 
   def install
     bin.install "vapor-beta"
