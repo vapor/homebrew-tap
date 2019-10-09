@@ -1,23 +1,24 @@
 class VaporBeta < Formula
-  desc "Vapor Toolbox"
+  desc "Vapor Toolbox (Server-side Swift web framework)"
   homepage "https://vapor.codes"
   head "https://github.com/vapor/toolbox.git"
-  depends_on :xcode => "10"
-  depends_on "libressl"
-  
+
+  depends_on :xcode => "11"
+  depends_on "openssl"
+
   stable do
-    url "https://github.com/vapor/toolbox/archive/18.0.0-beta.15.tar.gz"
-    sha256 "27349a381bab09d25ef8a43bab9304a79b6f72da5ec0373a39abe9592e91cdf4"
-    
-    bottle do
-        root_url "https://github.com/vapor/toolbox/releases/download/18.0.0-beta.15"
-        sha256 "69c26bc85b363c903a310aff1b80bcbe47488edada807fc864c0624b782662d8" => :mojave
-    end
+    version "18.0.0-beta.18"
+    url "https://github.com/vapor/toolbox/archive/18.0.0-beta.18.tar.gz"
+    sha256 "1bba8b489cde19d2af529c273644b2a9b7621ab70153111e8bb61af2f64ad1d8"
   end
 
   def install
     system "swift", "build", "--disable-sandbox"
     system "mv", ".build/debug/Executable", "vapor-beta"
     bin.install "vapor-beta"
+  end
+
+  test do
+    system "vapor-beta -h"
   end
 end
