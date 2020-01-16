@@ -7,9 +7,9 @@ class VaporBeta < Formula
   depends_on "openssl"
 
   stable do
-    version "18.0.0-beta.23"
+    version "18.0.0-beta.24"
     url "https://github.com/vapor/toolbox/archive/#{version}.tar.gz"
-    sha256 "e4e836104c93f891aea1eec572e4667f3172cc398b3ca83f5da3cdc8aabbbd52"
+    sha256 "7a9b87f65282b311272da4c1745d8f147cccb1d80da9a316747d2db65721f4d8"
   end
 
   def install
