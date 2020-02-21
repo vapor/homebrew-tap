@@ -4,7 +4,6 @@ class VaporBeta < Formula
   head "https://github.com/vapor/toolbox.git"
 
   depends_on :xcode => "11"
-  depends_on "openssl"
 
   stable do
     version "18.0.0-beta.27"
