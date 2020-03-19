@@ -1,7 +1,7 @@
 class Vapor < Formula
   homepage "https://vapor.codes"
-  version "3.1.12"
-  url "https://github.com/vapor/toolbox/releases/download/3.1.12/macOS.zip"
+  version "3.1.13"
+  url "https://github.com/vapor/toolbox/releases/download/3.1.13/macOS.zip"
   sha256 "13dcd65f9afb998af39a0a5389958b3994bff18c9a063309303e265d0451a80e"
 
   depends_on "ctls"
