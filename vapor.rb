@@ -8,7 +8,7 @@ class Vapor < Formula
   stable do
     version "18.0.0"
     url "https://github.com/vapor/toolbox/archive/#{version}.tar.gz"
-    sha256 "5b782e4c74f5a37c3dc2c353e7cfe099612ea88d08201d4547fc981106bdf03d"
+    sha256 "1d1b72d92dfb4e417dbbfe8486149f64a92cbfcf86db5209686fdd926b43c74c"
   end
 
   def install
