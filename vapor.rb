@@ -2,6 +2,7 @@ class Vapor < Formula
   desc "Vapor Toolbox (Server-side Swift web framework)"
   homepage "https://vapor.codes"
   head "https://github.com/vapor/toolbox.git"
+  disable! date: "2022-01-01", because: "Vapor is now part of Homebrew Core. Please remove this tap install vapor directly from Homebrew"
 
   depends_on :xcode => "11"
 
@@ -12,9 +13,7 @@ class Vapor < Formula
   end
 
   def install
-    system "swift", "build", "--disable-sandbox", "-c", "release", "-Xswiftc", "-cross-module-optimization"
-    system "mv", ".build/release/vapor", "vapor"
-    bin.install "vapor"
+    odie "The Vapor tap has been deprecated. Please untap (`brew untap vapor/tap`) and install Vapor from Homeberew core with `brew install vapor`"
   end
 
   test do
